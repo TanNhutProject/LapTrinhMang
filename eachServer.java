@@ -24,7 +24,7 @@ public eachServer(int port) throws IOException{
 this.port=port;
 thread.start();
 sendSv=new sendServer();
-
+//thay doi mot so thong tin gi do
 }
 @Override
 public void run() {
